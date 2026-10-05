@@ -1,1 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tisha Bea</title>
 
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #000;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #d4af37;
+    }
+
+    header h1 {
+      color: #d4af37;
+      font-size: 32px;
+    }
+
+    header p {
+      color: #ddd;
+    }
+
+    nav {
+      background: #181818;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #d4af37;
+    }
+
+    .hero {
+      min-height: 450px;
+      padding: 80px 20px;
+      text-align: center;
+      background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.8));
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      color: #d4af37;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin-bottom: 25px;
+      color: #ddd;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 25px;
+      background: #d4af37;
+      color: #000;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      margin: 5px;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+
+    section h2 {
+      color: #d4af37;
+      margin-bottom: 25px;
+      font-size: 30px;
+    }
+
+    .card {
+      background: #1c1c1c;
+      padding: 25px;
+      margin: 15px auto;
+      border-radius: 12px;
+      max-width: 600px;
+    }
+
+    .card h3 {
+      color: #d4af37;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 30px 20px;
+      color: #aaa;
+      border-top: 1px solid #333;
+    }
+
+    .social a {
+      color: #d4af37;
+      margin: 8px;
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      .hero h2 {
+        font-size: 32px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 5px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>TISHA BEA MUSIC</h1>
+    <p>Official Website</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#music">Music</a>
+    <a href="#videos">Videos</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <h2>Tisha Bea</h2>
+
+    <p>
+      Welcome to the official home of Tisha Bea Music.
+      Discover new music, videos, updates and everything
+      about Tisha Bea.
+    </p>
+
+    <a href="#music" class="button">Listen to Music</a>
+    <a href="#contact" class="button">Book Tisha Bea</a>
+  </section>
+
+  <section id="music">
+    <h2>Latest Music</h2>
+
+    <div class="card">
+      <h3>Mbanikeko</h3>
+      <p>Latest music by Tisha Bea.</p>
+      <a href="#" class="button">Listen Now</a>
+    </div>
+
+    <div class="card">
+      <h3>Love Zone</h3>
+      <p>Listen to Tisha Bea's music and discover more releases.</p>
+      <a href="#" class="button">Listen Now</a>
+    </div>
+  </section>
+
+  <section id="videos">
+    <h2>Latest Videos</h2>
+
+    <div class="card">
+      <h3>Tisha Bea on YouTube</h3>
+      <p>
+        Watch music videos, performances and updates from Tisha Bea.
+      </p>
+
+      <a
+        href="https://www.youtube.com/"
+        target="_blank"
+        class="button">
+        Watch on YouTube
+      </a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Tisha Bea</h2>
+
+    <p>
+      Tisha Bea is a Ugandan recording artist bringing her unique
+      sound, creativity and passion for music to audiences in Uganda
+      and beyond.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Bookings & Contact</h2>
+
+    <div class="card">
+      <h3>Book Tisha Bea</h3>
+
+      <p>
+        For music collaborations, performances, bookings and
+        management inquiries, get in touch with the Tisha Bea team.
+      </p>
+
+      <a href="mailto:your@email.com" class="button">
+        Email Us
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Tisha Bea Music. All Rights Reserved.</p>
+
+    <div class="social">
+      <a href="#">Facebook</a>
+      <a href="#">YouTube</a>
+      <a href="#">TikTok</a>
+      <a href="#">Instagram</a>
+    </div>
+  </footer>
+
+</body>
+</html>
