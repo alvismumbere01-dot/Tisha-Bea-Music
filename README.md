@@ -1,2 +1,2 @@
-# Tisha-Bea-Music
+# Tisha Bea
 Official Website for Tisha Bea Music
